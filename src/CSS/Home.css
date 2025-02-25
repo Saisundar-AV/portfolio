@@ -1,16 +1,60 @@
-img{
-    /* margin-top: 20px;
-    left: 40%;
-    position: relative; */
+img {
+    margin-top: 20px;
+    margin-left: 10px;
     float: right;
+    margin-bottom: 0px;
 }
-.desi{
+@keyframes example {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.desi {
     position: relative;
-    left:30px;
-    background: linear-gradient(180deg, #DA7C25, #B923E1);
+    left: 10px;
+    background: linear-gradient(90deg, #DA7C25, #B923E1, #634426, #58126b, #2da79f, #2c77a9);
+    background-size: 600% 600%;
     background-clip: text;
-    color: transparent; 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    animation: slide 3s forwards,example 5s linear infinite;
+    
 }
-body{
+@keyframes slide {
+    0%{
+       transform: translate(-100%);  
+    }
+    100%{
+        transform: translate(0);
+    }
+    
+}
+
+
+body {
     background-color: black;
+}
+@keyframes slide-in {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.intro{
+    color:white;
+    animation: slide 3s forwards 0s;
+    left: 10px;
+    position: relative;
+    font-size: 30px;
 }

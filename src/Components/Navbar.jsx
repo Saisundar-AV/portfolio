@@ -4,6 +4,7 @@ function navbar(){
       <main>
         <div className="navbar-container">
           <ul className="navbar">
+            <li className="logo">Portfolio</li>
             <li className="linav">Home</li>
             <li className="linav">About</li>
             <li className="linav">Experience</li>

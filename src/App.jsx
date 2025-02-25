@@ -4,12 +4,15 @@
 // import './App.css'
 import Navbar from './Components/Navbar'
 import Home from './Components/Home'
+import Education from './Components/Education'
 function App() {
 
   return (
     <>
       <Navbar />
       <Home />
+      <hr style={{top:"20px",position:"relative",width:"100%"}}></hr>
+      <Education />
     </>
   )
 }

@@ -1,0 +1,19 @@
+.main{
+    text-align: center;
+    top:10px;
+    position:relative;
+    background: linear-gradient(0deg, #8e2020, #f2a92b, #89f342, #58126b, #3732dc, #f929c1);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.class10{
+    display: inline-table;
+    left:250px;
+    height: auto;
+    width:fit-content;
+    position: relative;
+    border: 2px solid white;
+    margin: 10px;
+    padding: 10px;
+}
