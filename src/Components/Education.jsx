@@ -11,7 +11,7 @@ function Education() {
       </div>
       <div className="class10">
         <h2>Class 12</h2>
-        <p>St. Joseph's Public School, Kurnool</p>
+        <p></p>
         <p>Percentage: 97%</p>
       </div>
       <div className="college"></div>

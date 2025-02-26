@@ -1,10 +1,11 @@
 import '../CSS/Home.css';
+import image from '../assets/AVSaisundar.jpg';
 function Home(){
     return (
       <main>
         <div>
           <img
-            src="public\Candidate_Photo.jpg"
+            src={image}
             height="347px"
             width="247px"
           ></img>
